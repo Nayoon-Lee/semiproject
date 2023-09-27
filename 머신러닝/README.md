@@ -20,10 +20,6 @@
    -  train/test: 7 : 3 으로 나누어 학습
    -  Best 평가지표 (MAE: 1.45 ,RMSE: 2.29, R2: 0.98)
 
-## 모든 버전에서 XGBoost와 LGBM의 성능이 좋았음
-   - 추가 데이터 학습 준비중
-
-
 # 사용 모델
 1. [Scikit-learn RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor)
 2. [Scikit-learn LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression)
