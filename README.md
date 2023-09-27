@@ -9,7 +9,7 @@
 
 
 ## 팀 구성
-팀명 : 트랜짓 인사이츠(Transit Insights)
+> 팀명 : 트랜짓 인사이츠(Transit Insights)
 - 이승준 | 프로젝트 총괄, 전반작업 | https://mizima-data.tistory.com/
 - 김은채 | 웹 개발 | https://kimec995.github.io/
 - 이나윤(ME) | 데이터 수집과 전처리 | https://data-analytics-nayoonee.tistory.com/
@@ -21,8 +21,20 @@
 ## 프로젝트 소개
 지하철 내 혼잡도 및 안정성 문제 심각화, 기존 혼잡도 제공 서비스 아쉬운 점 개선하고자 지하철 혼잡도를 미리 예측하는 서비스입니다. 사용자의 편의성을 위해 원하는 조건을 맞춰서 혼잡도 정보를 제공합니다. 
 
+## 수행 도구
+- 웹 배포: Django, AWS
+- 머신러닝: Scikit-learn, LightGBM, XGBoost
+- 시각화: Highcharts
 
-## 주요 기능
+## 데이터 소개
+- 서울시열린데이터광장 : 서울교통공사 역별 혼잡도 현황
+  - https://data.seoul.go.kr/dataList/OA-12928/F/1/datasetView.do
+- 서울시열린데이터광장 : 서울시 지하철 호선별 역별 시간대별 승하차 인원 정보 (월단위 정리)
+  - https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do 
+- 서울시열린데이터광장 : 서울교통공사 연도별 일별 시간대별 역별 승하차 인원 (일단위 정리)
+  - https://data.seoul.go.kr/dataList/OA-12921/F/1/datasetView.do   
+
+## 웹 주요 기능
 > 기능 안내 영상 : https://www.youtube.com/watch?v=phZRdA8Wsik&ab_channel=QRAAAAA
 - 호선별 노선 이미지 제공
 - 호선별로 혼잡도 정보 제공
